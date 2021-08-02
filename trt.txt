@@ -1,5 +1,5 @@
 1. pwd 
-/c/Users/Mankyper/Desktop/Новая папка
+/c/Users/Mankyper/Desktop/ttt
 2. mkdir test
 3. cd test
 4. mkdir test_1 | mkdir test_2 | mkdir test_3
