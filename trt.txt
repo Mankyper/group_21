@@ -1,9 +1,5 @@
 1. pwd 
-<<<<<<< HEAD
 /c/Users/Mankyper/Desktop/ttt
-=======
-/c/Users/Mankyper/Desktop/Íîâàÿ ïàïêà
->>>>>>> 9a0b5a794aac261005b9fa843e823fd319400f0b
 2. mkdir test
 3. cd test
 4. mkdir test_1 | mkdir test_2 | mkdir test_3
