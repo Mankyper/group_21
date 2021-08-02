@@ -1,0 +1,22 @@
+1. pwd 
+/c/Users/Mankyper/Desktop/Новая папка
+2. mkdir test
+3. cd test
+4. mkdir test_1 | mkdir test_2 | mkdir test_3
+5. cd test_3
+6. touch doc_1.txt | touch doc_2.txt | touch doc_3.txt | touch file.json | touch txt.json
+7. mkdir -p Bigmatryoshka/Avaragematryoshks/littlematroyshka
+8. ls
+9. vi doc_3.txt                  |   9-11. echo Hi, how are u? >> doc_2.txt |  9. nano doc_1.txt 
+10. Left hand Suzuki Method
+      |                                          |  10. 88005553535 11. ctrl + s, ctrl + x
+11. Esc :wq                      |                                          |
+12. cd ..
+13. mv doc_1.txt doc_2.txt test_2
+14. cp doc_3.txt file.json test_3
+15. find test_2
+16. grep -i ft doc_3.txt 
+17. head -n 1 doc_3.txt
+18. tail -n 2 doc_3.txt
+19. less doc_3.txt
+20. ls -lct | doc_3.txt %Y
