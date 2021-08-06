@@ -1,0 +1,12 @@
+1. Identifier
+2. Summary
+3. Description
+4. Steps to reproduce
+5. Reproducibility
+6. Severity
+7. Priority
+8. Symptom
+9. Workaround
+10. Comments
+11. Attachments
+
