@@ -1,0 +1,36 @@
+The table is taken from the https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_where
+
+1. Query outputs all of the content of the table 
+        Select * FROM Customers;
+        
+2. Query rerurns the names of the of all customers in the table
+        select CustomerName from Customers;
+        
+3. Query rerurns all city in the table (without duplicates) 
+        SELECT DISTINCT city from Customers
+        
+4. Query rerurns all about customers from Germany
+        SELECT * FROM Customers
+            where Country = "Germany"
+            
+5. Query returns number of suppliers for each country 
+        SELECT COUNT(SupplierID), Country
+            FROM Suppliers
+            GROUP BY Country;
+            
+6. Query returns product with maximum/minimum/average/sum price in the table 
+        SELECT ProductName, MAX(Price)  |  SELECT ProductName, MIN(Price)   |    SELECT ProductName, AVG(Price)  |    SELECT ProductName, SUM(Price)     
+            FROM Products               |      FROM Products                |        FROM Products               |       FROM Products     
+            
+7. Query returns 10 product names with lowest price  
+        SELECT ProductName
+            from Products 
+            order by price asc 
+            limit 10;
+            
+8. Query returns customers where name iclude '-' and contact dont begin 'C' and ending 'ang'
+        select CustomerName, ContactName
+            from Customers
+            where CustomerName like '%-%' and  ContactName not like "%ang" and ContactName not like 'C%'
+            
+9. Query returns
