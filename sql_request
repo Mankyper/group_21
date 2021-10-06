@@ -33,4 +33,22 @@ The table is taken from the https://www.w3schools.com/sql/trysql.asp?filename=tr
             from Customers
             where CustomerName like '%-%' and  ContactName not like "%ang" and ContactName not like 'C%'
             
-9. Query returns
+9. Query returns customers who have "Tofu" in the order
+        SELECT CustomerName, ProductName
+                from (((Orders
+                INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID)
+                INNER JOIN OrderDetails ON OrderDetails.OrderID = Orders.OrderID)
+                INNER JOIN Products on Products.ProductID = OrderDetails.ProductID)
+                WHERE ProductName = 'Tofu'
+     
+10. Query returns count of orders 
+        select count (distinct(OrderID))        
+                from OrderDetails
+
+11. Query returns description of products
+        SELECT ProductName, CategoryName, Description
+                FROM Products
+                LEFT JOIN Categories
+                ON Products.CategoryID = Categories.CategoryID;
+                
+12.             
